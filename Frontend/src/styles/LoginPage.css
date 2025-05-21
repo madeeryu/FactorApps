@@ -1,0 +1,143 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:#ffffff;
+
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .login-form {
+    position: relative;
+    right: 12px;
+  }
+  .login-title {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  .error-message {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .register-link {
+      text-align: center;
+      margin-top: 15px;
+      position: relative;
+      bottom: -90px;
+      color: #6b7280;
+      font-size:small;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .register-link button {
+      background: none;
+      border: none;
+      color: #007bff;
+      cursor: pointer;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  .divider {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    left: 7px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #e5e7eb;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .divider span {
+    background-color: white;
+    padding: 0 10px;
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .google-login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .txt-p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    right: 40%;
+    font-size: small;
+    margin-bottom: 5px;
+  }
+  .txt-e{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    right: 43%;
+    font-size: small;
+    margin-bottom: 5px;
+  }

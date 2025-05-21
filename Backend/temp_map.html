@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_098c34cf76ec95de842f0cde13a390be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_098c34cf76ec95de842f0cde13a390be" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_098c34cf76ec95de842f0cde13a390be = L.map(
+                "map_098c34cf76ec95de842f0cde13a390be",
+                {
+                    center: [-7.7706545, 110.3263025],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8da957a62ec89edcb5c1bc25f65a10e9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8da957a62ec89edcb5c1bc25f65a10e9.addTo(map_098c34cf76ec95de842f0cde13a390be);
+        
+    
+            var marker_c5ca8dbfa87e6ed16e1df4434f596dc4 = L.marker(
+                [-7.755105, 110.318517],
+                {
+}
+            ).addTo(map_098c34cf76ec95de842f0cde13a390be);
+        
+    
+            var icon_bb9ad2e9f5b2d843b7a73bfcca2e1d92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c5ca8dbfa87e6ed16e1df4434f596dc4.setIcon(icon_bb9ad2e9f5b2d843b7a73bfcca2e1d92);
+        
+    
+        var popup_459b1d2ca1afd8554d5a4f6a21502072 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_542ba9a914afb0652ed92195da507246 = $(`<div id="html_542ba9a914afb0652ed92195da507246" style="width: 100.0%; height: 100.0%;">Gardu InduK (68V9+G5V)</div>`)[0];
+                popup_459b1d2ca1afd8554d5a4f6a21502072.setContent(html_542ba9a914afb0652ed92195da507246);
+            
+        
+
+        marker_c5ca8dbfa87e6ed16e1df4434f596dc4.bindPopup(popup_459b1d2ca1afd8554d5a4f6a21502072)
+        ;
+
+        
+    
+    
+            var marker_6a52e30f4802c88e4cafd57129f9beac = L.marker(
+                [-7.786204, 110.334088],
+                {
+}
+            ).addTo(map_098c34cf76ec95de842f0cde13a390be);
+        
+    
+            var icon_7533dd50b40848124a203dc98afada75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a52e30f4802c88e4cafd57129f9beac.setIcon(icon_7533dd50b40848124a203dc98afada75);
+        
+    
+        var popup_d12c1566f3fd2ebae66e5c47f27bfb08 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05f74525ae86f6bc5f19877996e18e5e = $(`<div id="html_05f74525ae86f6bc5f19877996e18e5e" style="width: 100.0%; height: 100.0%;">         <div>             <h4>Titik Gangguan Pada jarak 2.4 KMS</h4>             <img src="images/default.jpg" alt="Gambar Gangguan" width="150">             <p>Koordinat: -7.786204, 110.334088</p>             <p>Estimasi Jarak Rute: 6.03 km</p>         </div>         </div>`)[0];
+                popup_d12c1566f3fd2ebae66e5c47f27bfb08.setContent(html_05f74525ae86f6bc5f19877996e18e5e);
+            
+        
+
+        marker_6a52e30f4802c88e4cafd57129f9beac.bindPopup(popup_d12c1566f3fd2ebae66e5c47f27bfb08)
+        ;
+
+        
+    
+    
+            var poly_line_9094842617755938a07ae1ca5f80b6e0 = L.polyline(
+                [[-7.75499, 110.31797], [-7.75453, 110.31807], [-7.75355, 110.3183], [-7.75278, 110.31848], [-7.75209, 110.31862], [-7.75116, 110.31884], [-7.75108, 110.31888], [-7.75105, 110.31894], [-7.75105, 110.31899], [-7.75107, 110.31913], [-7.75111, 110.31934], [-7.75121, 110.31968], [-7.75128, 110.32003], [-7.75131, 110.32015], [-7.75131, 110.32023], [-7.75131, 110.32029], [-7.75138, 110.32036], [-7.75159, 110.32052], [-7.75172, 110.32057], [-7.75184, 110.32057], [-7.75211, 110.32055], [-7.75327, 110.32055], [-7.75375, 110.32054], [-7.75445, 110.32053], [-7.75533, 110.32055], [-7.75569, 110.32052], [-7.7558, 110.32051], [-7.75603, 110.32048], [-7.75638, 110.32044], [-7.7567, 110.32041], [-7.75679, 110.32041], [-7.7569, 110.32041], [-7.75732, 110.32043], [-7.75749, 110.32044], [-7.75765, 110.32045], [-7.75767, 110.32045], [-7.75811, 110.32043], [-7.75828, 110.32042], [-7.75865, 110.32043], [-7.75875, 110.32043], [-7.75897, 110.32043], [-7.75908, 110.32043], [-7.75936, 110.32045], [-7.75951, 110.32047], [-7.75959, 110.32048], [-7.75979, 110.32052], [-7.75999, 110.32054], [-7.76008, 110.32055], [-7.76015, 110.32055], [-7.76028, 110.32056], [-7.76042, 110.32054], [-7.76054, 110.32053], [-7.76087, 110.32049], [-7.76121, 110.32045], [-7.76137, 110.32044], [-7.76156, 110.32042], [-7.76169, 110.32042], [-7.76178, 110.32041], [-7.76205, 110.32039], [-7.76217, 110.3204], [-7.76241, 110.3204], [-7.76274, 110.32041], [-7.76282, 110.32041], [-7.76314, 110.32041], [-7.76368, 110.3204], [-7.76378, 110.32041], [-7.76398, 110.32042], [-7.76424, 110.32043], [-7.76451, 110.32043], [-7.76466, 110.32043], [-7.76472, 110.32043], [-7.76493, 110.32044], [-7.76521, 110.32045], [-7.76538, 110.32045], [-7.7655, 110.32044], [-7.76562, 110.32043], [-7.76588, 110.32036], [-7.7663, 110.32023], [-7.76655, 110.32016], [-7.76657, 110.32015], [-7.76678, 110.32009], [-7.76703, 110.32], [-7.7671, 110.31998], [-7.76785, 110.31973], [-7.76827, 110.31961], [-7.76944, 110.31925], [-7.76954, 110.31922], [-7.77004, 110.31908], [-7.77033, 110.319], [-7.77046, 110.31897], [-7.77065, 110.31892], [-7.77093, 110.31885], [-7.77127, 110.31876], [-7.77165, 110.31867], [-7.77174, 110.31865], [-7.77179, 110.31864], [-7.7721, 110.31858], [-7.77224, 110.31854], [-7.77227, 110.31854], [-7.77235, 110.31851], [-7.77245, 110.31849], [-7.77283, 110.31839], [-7.77297, 110.31836], [-7.77322, 110.31831], [-7.77325, 110.3183], [-7.77328, 110.3183], [-7.77345, 110.31826], [-7.77368, 110.3182], [-7.77394, 110.31816], [-7.77405, 110.31866], [-7.77411, 110.31902], [-7.77413, 110.3191], [-7.77419, 110.31935], [-7.77424, 110.31957], [-7.77432, 110.31998], [-7.77433, 110.32005], [-7.77443, 110.32048], [-7.7745, 110.32075], [-7.77451, 110.32079], [-7.77457, 110.32114], [-7.77467, 110.3216], [-7.7747, 110.32174], [-7.77471, 110.32178], [-7.77473, 110.32186], [-7.77479, 110.32211], [-7.77487, 110.32243], [-7.77518, 110.32367], [-7.77529, 110.32408], [-7.77541, 110.32457], [-7.77559, 110.3253], [-7.77573, 110.32582], [-7.77593, 110.32662], [-7.77595, 110.32668], [-7.77606, 110.32715], [-7.77609, 110.32731], [-7.77613, 110.3275], [-7.7762, 110.32775], [-7.77623, 110.32786], [-7.77629, 110.32797], [-7.77632, 110.32803], [-7.7764, 110.32814], [-7.77655, 110.32834], [-7.77669, 110.32856], [-7.77692, 110.32904], [-7.77702, 110.32937], [-7.77704, 110.32957], [-7.77704, 110.32965], [-7.77703, 110.32976], [-7.77703, 110.32984], [-7.77703, 110.32987], [-7.77702, 110.33013], [-7.77702, 110.33039], [-7.77702, 110.33065], [-7.77702, 110.33086], [-7.77704, 110.33106], [-7.77709, 110.33133], [-7.77713, 110.33151], [-7.77714, 110.33158], [-7.77717, 110.33171], [-7.77732, 110.33166], [-7.77741, 110.33164], [-7.77769, 110.33157], [-7.77786, 110.33154], [-7.77791, 110.33153], [-7.77797, 110.33152], [-7.77816, 110.3315], [-7.77868, 110.33147], [-7.7792, 110.33143], [-7.77934, 110.33142], [-7.77939, 110.33142], [-7.78036, 110.33134], [-7.781, 110.33128], [-7.78111, 110.33127], [-7.78175, 110.33121], [-7.78223, 110.33117], [-7.78224, 110.33124], [-7.78295, 110.33118], [-7.7831, 110.33118], [-7.78337, 110.33116], [-7.7834, 110.33132], [-7.78347, 110.33178], [-7.78353, 110.33212], [-7.78353, 110.33217], [-7.78365, 110.33283], [-7.78368, 110.33301], [-7.78373, 110.33325], [-7.78375, 110.33338], [-7.78378, 110.33353], [-7.78384, 110.33384], [-7.78388, 110.33401], [-7.78399, 110.33453], [-7.78469, 110.33441], [-7.78581, 110.33421], [-7.78604, 110.33417], [-7.78621, 110.33413]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_098c34cf76ec95de842f0cde13a390be);
+        
+    
+        var popup_7c6ad683acaa02e8b1f17b2353e3e54a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3e73901acb337fab4904a57fd8baac9 = $(`<div id="html_f3e73901acb337fab4904a57fd8baac9" style="width: 100.0%; height: 100.0%;">Jarak: 6.03 km</div>`)[0];
+                popup_7c6ad683acaa02e8b1f17b2353e3e54a.setContent(html_f3e73901acb337fab4904a57fd8baac9);
+            
+        
+
+        poly_line_9094842617755938a07ae1ca5f80b6e0.bindPopup(popup_7c6ad683acaa02e8b1f17b2353e3e54a)
+        ;
+
+        
+    
+    
+            var layer_control_5900267093ddd56217e8b945e4ecde37_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8da957a62ec89edcb5c1bc25f65a10e9,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_5900267093ddd56217e8b945e4ecde37 = L.control.layers(
+                layer_control_5900267093ddd56217e8b945e4ecde37_layers.base_layers,
+                layer_control_5900267093ddd56217e8b945e4ecde37_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_098c34cf76ec95de842f0cde13a390be);
+
+        
+</script>
+</html>

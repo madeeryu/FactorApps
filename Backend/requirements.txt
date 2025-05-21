@@ -1,0 +1,9 @@
+Flask
+Flask-CORS
+requests
+polyline
+pandas
+folium
+geopy
+kivy
+python-dotenv
